@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .topnav {
+     overflow: hidden;
+     background-color: grey;
+    }
+    .topnav a{
+        color: yellow;
+        text-align: center;
+         text-decoration: none;
+        float:left;                                                          
+        padding: 16px 18px;
+        font-size: 20px;
+        background-color: blue;
+    }
+    .topnav a:hover{
+        background-color: orange;
+        color: red;
+    }
+    .topnav a:active{
+        background-color: red;
+        color: red;
+    }
+</style>
+</head>
+<body>
+    <div class="topnav">
+         <a class="active" href="#home">home</a> 
+        <a href="#home">No home</a> 
+        <a href="#home">yes No home</a> 
+          <a href="#home">ofcourse  No home</a> 
+    </div>
+    <section>
+        <img class="myslides" src="download (26).jpeg" style="height: 500px;">
+        <img class="myslides" src="images (38).jpeg" style="height: 500px;">    
+    </section>
+    <script>
+        var myIndex = 0
+        carousel();
+        function carousel(){
+            var i;
+            var x = document.getElementsByClassName("myslides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if(myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display="block"
+            setTimeout(carousel,3000);
+        }
+    </script>
+    <br>
+    <span class="border trans" style="font-size: 40px;">
+        <center>Welcome all to this website</center>
+    </span><br>
+    <section class="section section-dark">
+        <h2>Food</h2>
+        <p>
+            Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function. The energy in food is measured in units called calories.
+        </p>
+    </section>
+    <div class="ping3">
+        <div class="ptext">
+            <span class="border trans">
+                Food is any substance consumed to provide nutritional support for an organism.
+            </span>
+        </div>
+    </div>
+    <p>Pizza</p>
+    <p><img src="c:\Users\Lenovo\Pictures\download (15).jpeg"  style="width: 170px;height: 170px;margin-left: 15px; float: right;">
+        Pizza is not just a meal; it's an experience that brings people together. It has been one of my favorite foods for as long as I can remember because of its delicious taste and the way it fills me up. There are so many reasons why I love pizza. Firstly, the aroma of pizza baking in the oven is irresistible.Firstly, the aroma of pizza baking in the oven is irresistible. The mix of cheese, tomato sauce, and various toppings creates an enchanting smell that instantly makes my mouth water. When I take that first bite, the crispy yet chewy crust, the tangy tomato sauce, and the gooey, melted cheese explode with flavor in every mouthful. It's like a party in my mouth!
+
+
+        Another reason why I love pizza is its versatility. Whether you're a meat lover, a vegetarian, or somewhere in between, there's a pizza for everyone. From classic pepperoni to exotic combinations like BBQ chicken or pineapple, there are endless topping choices to suit every taste bud. This variety ensures that I never get tired of eating pizza, as there's always a new flavor to try.
+        
+        
+        Moreover, pizza is a great meal to share with friends and family. Whether it's a casual gathering or a big celebration, pizza always brings people together. Picking out toppings, sharing slices, and engaging in friendly debates about the best pizza joints in town are all part of the fun.
+        
+        
+        In conclusion, pizza is more than just a food to me; it's a symbol of joy, togetherness, and deliciousness. Its mouthwatering aroma, endless variety, and ability to bring people closer make it a timeless favorite. So, the next time you're craving a scrumptious and comforting meal, don't hesitate to grab a slice of pizza and savor every bite!"
+        
+        
+    </p>
+    <br>
+    <p>Pizza</p>
+    <p><img src="  c:\Users\Lenovo\Pictures\download (16).jpeg"  style="width: 170px;height: 170px;margin-right: 15px; float: right;">
+        Pizza is not just a meal; it's an experience that brings people together. It has been one of my favorite foods for as long as I can remember because of its delicious taste and the way it fills me up. There are so many reasons why I love pizza. Firstly, the aroma of pizza baking in the oven is irresistible.Firstly, the aroma of pizza baking in the oven is irresistible. The mix of cheese, tomato sauce, and various toppings creates an enchanting smell that instantly makes my mouth water. When I take that first bite, the crispy yet chewy crust, the tangy tomato sauce, and the gooey, melted cheese explode with flavor in every mouthful. It's like a party in my mouth!
+
+
+        Another reason why I love pizza is its versatility. Whether you're a meat lover, a vegetarian, or somewhere in between, there's a pizza for everyone. From classic pepperoni to exotic combinations like BBQ chicken or pineapple, there are endless topping choices to suit every taste bud. This variety ensures that I never get tired of eating pizza, as there's always a new flavor to try.
+        
+        
+        Moreover, pizza is a great meal to share with friends and family. Whether it's a casual gathering or a big celebration, pizza always brings people together. Picking out toppings, sharing slices, and engaging in friendly debates about the best pizza joints in town are all part of the fun.
+        
+        
+        In conclusion, pizza is more than just a food to me; it's a symbol of joy, togetherness, and deliciousness. Its mouthwatering aroma, endless variety, and ability to bring people closer make it a timeless favorite. So, the next time you're craving a scrumptious and comforting meal, don't hesitate to grab a slice of pizza and savor every bite!" 
+    </p> <br><br><br>
+
+</body>
+</html>
